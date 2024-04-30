@@ -1,0 +1,119 @@
+:root {
+    --primary-color: #4D5AE5;
+    --primary-text-color: #2E2F42;
+    --secondary-text-color: #FFFFFF;
+    --background-color: #FFFFFF;
+    --button-none-active-color: #E7E9FC;
+    --button-hover-color: #404BBF;
+    --primary-sections-background-color: #2E2F42;
+    --secondary-sections-background-color: #F4F4FD;
+    --card-background-color: #2E2F4214;
+    --card-border-color: #E7E9FC;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
+    background-color: var(--background-color);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+button {
+    border: none;
+    padding: 12px 24px;
+    border-radius:  4px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+.contacts {
+    font-style: normal;
+}
+
+.general-title {
+    font-size: 56px;
+    line-height: 60px;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.link:hover {
+    color: var(--button-hover-color);
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    color: var(--primary-color);
+}
+
+.logo-part {
+    color: var(--secondary-sections-background-color);
+}
+
+.order-section {
+    text-align: center;
+    color: var(--secondary-text-color);
+    background-color: var(--primary-sections-background-color);
+}
+
+.order-button {
+    background-color: var(--primary-color);
+    color: var(--secondary-text-color);
+}
+
+.order-button:hover {
+    background-color: var(--button-hover-color);
+}
+
+.team-section {
+    background-color: var(--secondary-sections-background-color);
+}
+
+.team-card {
+    width: 264px;
+    background-color: var(--background-color);
+}
+
+.filter-button {
+    color: var(--primary-color);
+    background-color: var(--button-none-active-color);
+}
+
+.filter-button:hover {
+    background-color: var(--button-hover-color);
+    color: var(--secondary-text-color);
+}
+
+.portfolio-card {
+    width: 360px;
+}
+
+.footer {
+    background-color: var(--primary-sections-background-color);
+    color: var(--secondary-text-color);
+}
+
+.footer .logo-part {
+    color: var(--secondary-text-color);
+}
